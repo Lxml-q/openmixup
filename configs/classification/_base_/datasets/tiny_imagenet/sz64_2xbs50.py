@@ -1,10 +1,10 @@
 # dataset settings
 data_source_cfg = dict(type='ImageNet')
 # Tiny Imagenet
-data_train_list = 'data/meta/TinyImageNet/train_labeled.txt'  # train 10w
-data_train_root = 'data/TinyImageNet/train/'
-data_test_list = 'data/meta/TinyImageNet/val_labeled.txt'  # val 1w
-data_test_root = 'data/TinyImageNet/val/'
+data_train_list = '/home/hang/research/dataset/meta/TinyImageNet/train_labeled.txt'  # train 10w
+data_train_root = '/home/hang/research/dataset/TinyImageNet/train/'
+data_test_list = '/home/hang/research/dataset/meta/TinyImageNet/val_labeled.txt'  # val 1w
+data_test_root = '/home/hang/research/dataset/TinyImageNet/val/'
 
 dataset_type = 'ClassificationDataset'
 img_norm_cfg = dict(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])

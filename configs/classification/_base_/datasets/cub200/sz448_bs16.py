@@ -1,10 +1,10 @@
 # dataset settings
 data_source_cfg = dict(type='ImageNet')
 # CUB200
-data_train_list = 'data/meta/CUB200/train_labeled.txt'
-data_train_root = 'data/CUB200/CUB_200/images/'
-data_test_list = 'data/meta/CUB200/test_labeled.txt'
-data_test_root = 'data/CUB200/CUB_200/images/'
+data_train_list = '/home/hang/research/dataset/meta/CUB200/train_labeled.txt'
+data_train_root = '/home/hang/research/dataset/CUB200/CUB_200/images/'
+data_test_list = '/home/hang/research/dataset/meta/CUB200/test_labeled.txt'
+data_test_root = '/home/hang/research/dataset/CUB200/CUB_200/images/'
 
 dataset_type = 'ClassificationDataset'
 img_norm_cfg = dict(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])

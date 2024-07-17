@@ -1,5 +1,5 @@
 # dataset settings
-data_source_cfg = dict(type='CIFAR10', root='data/cifar10/')
+data_source_cfg = dict(type='CIFAR10', root='/home/hang/research/dataset')
 
 dataset_type = 'ClassificationDataset'
 img_norm_cfg = dict(mean=[0.4914, 0.4822, 0.4465], std=[0.2023, 0.1994, 0.201])
